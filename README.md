@@ -26,6 +26,7 @@ git init
 git remote add origin https://github.com/bonyadmitr/services-macos
 git fetch
 git checkout -t origin/master
+killall Finder
 ```
 
 Tested for **macOS Sierra**.
